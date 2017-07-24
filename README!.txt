@@ -10,3 +10,5 @@ Smesis - I kinda stole one or two things from his hud ;p (http://www.teamfortres
 
 This is my personal hud and i won't updated it regularly, only when i feel like it.
 I've made this hud to fit my personal needs and the idea to minize useless info, being heavily based on the legendary m0rehud and m0rehud black.
+
+Screenshots: http://imgur.com/a/gYGWA
