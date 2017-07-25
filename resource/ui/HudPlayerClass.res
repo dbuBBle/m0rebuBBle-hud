@@ -4,13 +4,13 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudPlayerClass"
-		"xpos"										"170"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
-		"wide_minmode"        						"0"
+		"wide_minmode"        						"f0"
 		"tall"										"480"
-		"tall_minmode"			  					"0"
+		"tall_minmode"			  					"480"
 		"visible"									"1"
 		"enabled"									"1"		
 	}
