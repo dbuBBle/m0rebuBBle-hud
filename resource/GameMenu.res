@@ -55,7 +55,7 @@
 	"demoui"
 	{
 		"label"			"Demoui"
-		"command"		"engine demoui"
+		"command"		"engine demoui2"
 	}
 	
 	"Advanced"
