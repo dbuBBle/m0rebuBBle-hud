@@ -160,23 +160,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
-	"triferg"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldname"		"triferg"
-		"xpos"			"152"
-		"ypos"			"96"
-		"zpos"			"11"
-		"wide"			"50"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleimage"	"1"
-		"image"			"replay/thumbnails/triferg"
-	}
+
 	
 	"Background"
 	{
@@ -191,56 +175,6 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"
-	}
-	
-	"VersionNumber"
-	{
-		"ControlName"				"CExImageButton"
-		"fieldName"					"VersionNumber"
-		"labelText"					"m0rebuBBle hud"
-		"font"						"COOLVETICA"
-		"command"                   "engine showconsole; hud; echo Checkout twitch.tv/dbu33le"
-		"xpos"						"c-300"
-		"ypos"						"c-95"
-		"zpos"						"1"
-		"wide"						"100"
-		"tall"						"17"
-		"visible"					"1"
-		"enabled"					"1"
-		"tabPosition"				"0"
-		"textAlignment"				"center"
-		"scaleImage"				"1"
-		"paintborder"				"0"
-		"paintbackground"			"1"
-		"paintbackgroundtype"		"2"
-		"defaultFgColor_override" 	"m0rewhite"
-		"armedFgColor_override" 	"255 0 127 255"
-		"depressedFgColor_override"	""
-		"selectedFgColor_override" 	""
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" ""
-		"selectedBgColor_override" 	""
-		"sound_armed"				""
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	"VersionNumberShadow"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"VersionNumberShadow"
-		"labelText"					"m0rehud black"
-		"font"						"COOLVETICA"
-		"xpos"						"c-269"
-		"ypos"						"c-79"
-		"zpos"						"1"
-		"wide"						"100"
-		"tall"						"17"
-		"visible"					"1"
-		"enabled"					"1"
-		"tabPosition"				"0"
-		"textAlignment"				"center"
-		"fgcolor"	    	        "0 0 0 0"
 	}
 	
 	"TFLogoImage"

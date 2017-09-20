@@ -133,11 +133,11 @@
 		"subimage"		"glyph_bug"
 		"OnlyInGame"	"0"
 	}
-		
+	
 	"ConsoleClear"
 	{
-		"label"			"Clear Console"
-		"command"		"engine showconsole; clear; ping; echo <console cleared>"
+		"label"			""
+		"command"		"engine showconsole; hud; clear; ping; echo <console cleared"
 		"subimage"		"glyph_forums"
 		"OnlyInGame"	"0"
 	}
