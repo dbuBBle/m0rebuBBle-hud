@@ -9,8 +9,6 @@
 		"ypos"										"314"
 		"wide"										"500"
 		"tall"										"500"
-		"MeterFG"									"White"
-		"MeterBG"									"Gray"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -53,6 +51,8 @@
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		"fgcolor_override"							"White"
+		"bgcolor_override"							"TransparentBlack"	
 	}
 	
 	"ItemEffectMeterLabel2"

@@ -23,6 +23,186 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		Coolvetica4
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"4"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica6
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"6"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica8
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica10
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica12
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica14
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica16
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica18
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica20
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica22
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica24
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica26
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"26"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		Coolvetica28
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica30
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica32
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica34
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"34"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica36
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Coolvetica38
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"38"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		VerdanaMenu
 		{
 			"1"
@@ -301,6 +481,17 @@ Scheme
 				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		M0refont32Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"1"
 			}
 		}
 		M0refont34
@@ -653,120 +844,37 @@ Scheme
 			}
 		}
 		
-		"HeavyCaps59"
+		"Stickys50"
 		{
 			"1"
 			{
-				"name"		"HeavyCaps"
-				"tall"		"59"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"ToonHUD Icons"
+				"tall"										"50"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
-		
-		"HeavyCaps40"
+		"Stickys60"
 		{
 			"1"
 			{
-				"name"		"HeavyCaps"
-				"tall"		"40"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"ToonHUD Icons"
+				"tall"										"60"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
-		
-		"HeavyCaps35"
+		"Stickys70"
 		{
 			"1"
 			{
-				"name"		"HeavyCaps"
-				"tall"		"35"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		
-		"HeavyCaps30"
-		{
-			"1"
-			{
-				"name"		"HeavyCaps"
-				"tall"		"30"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		
-		"HeavyCaps20"
-		{
-			"1"
-			{
-				"name"		"HeavyCaps"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		
-		"CircleBG"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"62"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"CircleBGSmall"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"38"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"CircleBGSmaller"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"34"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"CircleBGSmallest"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"24"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"CircleBGWin"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"42"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-        "CircleBGClass"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias"	"1"
+				"name"										"ToonHUD Icons"
+				"tall"										"70"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 	}
@@ -798,21 +906,10 @@ Scheme
 		}
 		
 		"12"
-        {
-            "font"		"resource/fonts/Surface_Sharpened.ttf"
-            "name"		"Surface Sharpened Medium"
-        }
-		
-		"13" 
 		{
-			"font" "resource/fonts/HeavyCaps.ttf"
-			"name" "HeavyCaps" 
+			"font" 		"resource/fonts/ToonHUD Icons.ttf"
+			"name" 		"ToonHUD Icons"
 		}
-		
-		"9" 
-		{
-			"font" "resource/fonts/Paula.ttf"
-			"name" "Paula"
-		}			
+
 	}
 }

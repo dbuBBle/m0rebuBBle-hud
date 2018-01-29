@@ -610,52 +610,25 @@
 	
 	
 	
-	//////////////////////////////////Health Cross//////////////////////////////////
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName" 	         				 	"ImagePanel"
 		"fieldName"		          				 	"PlayerStatusHealthImage"
-		"xpos"			"31"
-		"ypos"			"70"
-		"zpos"			"10"
-		"wide"			"14"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"wide"		    	         				"0"
+		"tall"                   				 	"0"
+		"visible"		             				"0"
+		"enabled"		             				"0"
 	}
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"30"
-		"ypos"			"69"
-		"zpos"			"9"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"
-	}
-	
-	"HealthCrossborder"
-	{
-		"ControlName"				"CTFImagePanel"
-		"fieldName"					"HealthCrossBorder"
-		"xpos"						"22"
-		"ypos"						"61"
-		"zpos"						"3"
-		"wide"						"32"
-		"tall"						"32"
-		"visible"					"1" // "1" to enable the team-colored HP cross border
-		"enabled"					"1"
-		"image"						"replay/thumbnails/health_border_red"
-		"teambg_2"					"replay/thumbnails/health_border_red"
-		"teambg_3"					"replay/thumbnails/health_border_blu"
-		"scaleImage"				"1"
+		"ControlName"	           				 	"ImagePanel"
+		"fieldName"	  	         				 	"PlayerStatusHealthImageBG"
+		"wide"		    	          				"0"
+		"tall"         				 				"0"
+		"visible"         				 			"0"
+		"enabled"	            				 	"0"
 	}
 }

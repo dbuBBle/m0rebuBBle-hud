@@ -11,10 +11,8 @@
 		"ypos" 			"0" // TLC
 		"ypos_minmode" 	"0" // TLC
 		"zpos" 			"9"
-		"wide"			"300"
-		"wide_minmode"	"200"
-		"tall" 			"130"
-		"tall_minmode" 	"114"
+		"wide"			"267"
+		"tall" 			"117"
 		"PaintBackgroundType" "0"
 		"paintbackground"	"0"
 		"paintborder"		"0"

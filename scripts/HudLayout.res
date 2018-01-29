@@ -1,5 +1,4 @@
 #base "../basefiles/hudlayout.res"
-#base "../scripts/crosshairs.res"
 
 "Resource/HudLayout.res"
 {	
@@ -22,8 +21,8 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-100"
-		"ypos"										"0"
-		"wide"										"200"
+		"ypos"										"c208"
+		"wide"										"f0"
 		"tall"										"160"
 		
 		"blue_active_xpos"							"54"
@@ -46,6 +45,8 @@
 		"wide"										"f0"
 		"wide_minmode"								"f0"
 		"tall"										"480"
+		"MeterFG"									"White"
+		"MeterBG"									"TransparentBlack"
 	}
 	
 	HudMedicCharge
@@ -59,6 +60,8 @@
 		"ypos_minmode"								"-79"
 		"wide"										"f0"
 		"tall"										"480"
+		"MeterFG"									"White"
+		"MeterBG"									"TransparentBlack"
 	}
 	
 	HudDemomanCharge
@@ -75,7 +78,7 @@
 		"wide_minmode"								"f0"
 		"tall"										"480"
 		"MeterFG"									"White"
-		"MeterBG"									"Gray"
+		"MeterBG"									"TransparentBlack"
 	}
 
 	HudFlameRocketCharge
@@ -92,20 +95,24 @@
 		"wide_minmode"								"100"
 		"tall"										"50"
 		"MeterFG"									"White"
-		"MeterBG"									"Gray"
+		"MeterBG"									"TransparentBlack"
 	}
 	
 	CHudAccountPanel
 	{
 		"fieldName"									"CHudAccountPanel"
-		"xpos"         								"c-100"
-		"ypos"										"c5"
-		"ypos_minmode"								"c5"
-		"wide"										"200"
-		"tall"  									"50"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"PaintBackgroundType"						"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"0"
+		"xpos_minmode"								"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
+		"zpos"										"1"
+		"wide"										"f0"
+		"wide_minmode"								"f0"
+		"tall"										"480"
+		"MeterFG"									"White"
+		"MeterBG"									"TransparentBlack"
 	}
 	
 	CHealthAccountPanel
@@ -248,8 +255,8 @@
 		"fieldName" 								"HudDeathNotice"
 		"visible" 									"1"
 		"enabled" 									"1"
-		"xpos"	 									"220"
-		"ypos"	 									"0"
+		"xpos"	 									"222"
+		"ypos"	 									"2"
 		"wide"	 									"628"
 		"tall"	 									"468"
 

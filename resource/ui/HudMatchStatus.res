@@ -154,10 +154,10 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"M0refont16"
+			"font"									"M0refont12"
 			"fgcolor"								"255 255 255 255"
 			"xpos"									"26"
-			"ypos"									"-2"
+			"ypos"									"18"
 			"zpos"									"3"
 			"wide"									"50"
 			"tall"									"15"

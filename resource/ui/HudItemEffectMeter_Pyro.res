@@ -1,6 +1,8 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+#base "HudItemEffectMeter.res"
+
+"Resource/UI/HudItemEffectMeter_Pyro.res"
 {
-	HudItemEffectMeter
+		HudItemEffectMeter
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
@@ -15,7 +17,26 @@
 		"tall"										"480"
 	}
 	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"					
+	}
 	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemEffectMeterLabel"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"	
+	}
+
 	"ItemEffectMeter"
 	{	
 		"ControlName"								"ContinuousProgressBar"
@@ -35,31 +56,5 @@
 		"brighttext"								"0"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"TransparentBlack"	
-	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"			
-	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemEffectMeterLabel"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"	
-	}	
+	}					
 }

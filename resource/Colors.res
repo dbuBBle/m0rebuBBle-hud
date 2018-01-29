@@ -4,9 +4,9 @@ Scheme
 	{
 		"Health Numbers"									"255 255 255 255"
 
-		"Buffed Health"										"255 0 127 255"
-		"Buffed Health Target"								"255 0 127 255"
-		"Buffed Health Spec"								"255 0 127 255"
+		"Buffed Health"										"0 198 255 255"
+		"Buffed Health Target"								"0 198 255 255"
+		"Buffed Health Spec"								"0 198 255 255"
 		
 		"Low Health"										"255 20 20 255"
 		"Low Health Target"									"255 20 20 255"
@@ -21,8 +21,8 @@ Scheme
 		"Low Ammo No Clip"									"255 20 20 255"
 
 		"Ubercharge"										"255 255 255 255"
-		"Full Ubercharge"									"255 0 127 255"
-		"Ubercharge Bar"									"255 0 127 255"
+		"Full Ubercharge"									"0 198 255 255"
+		"Ubercharge Bar"									"0 198 255 255"
 
 		"Damage Numbers"									"255 255 255 255"
 		"Heal Numbers"										"0 255 0 255"
@@ -30,16 +30,16 @@ Scheme
 
 		"Main Menu Labels"									"255 0 127 255"
 		
-        "m0retrans"             							"0 0 0 75"
-        "m0reblack"             							"0 0 0 200"
-        "m0reshadow"            							"0 0 0 125"
+        "M0retrans"             							"0 0 0 75"
+        "M0reblack"             							"0 0 0 200"
+        "M0reshadow"            							"0 0 0 125"
         "M0reBlu"               							"0 120 201 255"
 		"M0reBlue"               							"0 120 201 255"
         "M0reRed"               							"235 58 58 255"
-        "m0rewhite"             							"255 255 255 255"
-        "m0retan"               							"235 226 202 255"
-        "m0regreen"             							"102 255 0 255"
-		"m0reorange"										"51 151 213 255"
+        "M0rewhite"             							"255 255 255 255"
+        "M0retan"               							"235 226 202 255"
+        "M0regreen"             							"102 255 0 255"
+		"M0reorange"										"51 151 213 255"
 		
 		"TanLight"											"255 255 255 255"
 		"Pink"												"255 0 127 255"
@@ -96,4 +96,10 @@ Scheme
 		"OmpSpectatorMedicCharge"							"125 225 30 255"
 		"OmpSpectatorRespawnTime"							"225 30 225 255"
 	}
+	
+	BaseSettings
+	{
+		ProgressBar.BgColor									"TransparentBlack"
+	}
+	
 }

@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Sniper.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
@@ -8,7 +8,7 @@
 		"xpos"										"-25"
 		"ypos"										"351"
 		"wide"										"f0"
-		"tall"										"250"	
+		"tall"										"250"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -79,7 +79,6 @@
 	
 	
 	
-	
 	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 	
 	"ItemEffectMeterBG"
@@ -91,7 +90,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ItemEffectMeter"
 	{	
 		"ControlName"								"ContinuousProgressBar"
@@ -100,5 +98,5 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}
+	}					
 }
