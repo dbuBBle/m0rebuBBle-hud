@@ -1,3 +1,5 @@
+#base "../../resource/extras/preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -229,42 +231,145 @@
 		"xpos"										"9999"
 	}
 	
-	"RankModelPanel"
+	"MainMenuAnchor"								//THIS MOVES ALL THE BUTTONS AT ONCE!
 	{
-		"ControlName"								"CPvPRankPanel"
-		"fieldName"									"RankModelPanel"
-		"xpos"										"cs-0.5-185"
-		"ypos"										"cs-0.5-120"
-
-		"zpos"										"-51"
-		"wide"										"1000"
-		"tall"										"1000"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-		"mouseinputenabled"							"1"
-
-		"matchgroup"								"MatchGroup_Casual_12v12"
-
-		"show_progress"								"0"
+		"ControlName"								"EditablePanel"
+		"fieldname"									"MainMenuAnchor"
+		"xpos"										"c-241"
+		"ypos"										"175"
+		"wide"										"10"
+		"tall"										"10"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////CASUAL / COMP RANK////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	"RankPanel"
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
-		"xpos"										"c-310"
-		"ypos"										"72"
-		"zpos"										"-52"
+		"xpos"										"123"
+		"ypos"										"-26"
+		"zpos"										"1"
 		"wide"										"320"
-		"tall"										"145"
-		"visible"									"1"
+		"tall"										"100"
+		"visible"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 
 		"matchgroup"								"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"			"350"
 
 		"show_model"								"0"
+		"show_type"									"0"
+		
+		"pin_to_sibling" 							"MainMenuAnchor"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	
+	"RankModelPanel"
+	{
+		"ControlName"								"CPvPRankPanel"
+		"fieldName"									"RankModelPanel"
+		"xpos"										"300"
+		"ypos"										"-435"
+		"zpos"										"2"
+		"wide"										"900"
+		"tall"										"900"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"1"
+		"matchgroup"								"MatchGroup_Casual_12v12"
+		"show_progress"								"0"
+		
+		"pin_to_sibling" 							"RankPanel"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		
+	}
+	
+	"NoGCMessage"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"NoGCMessage"
+		"xpos"										"-127"
+		"ypos"										"-15"
+		"zpos"										"-99"
+		"wide"										"200"
+		"tall"										"100"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
+		"wrap"										"1"
+		
+		"AllCaps"									"1"
+
+		"font"										"Coolvetica"
+		"fgcolor_override"							"255 255 255 255"
+		"labelText"									"No Connection To Steam"
+		"textAlignment"								"west"
+		"use_proportional_insets"					"1"
+		
+		"pin_to_sibling" 							"RankPanel"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	
+	"NoGCImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"NoGCImage"
+		"xpos"										"0"
+		"ypos"										"-30"
+		"zpos"										"-99"
+		"wide"										"40"
+		"tall"										"40"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"gc_dc"
+		"scaleImage"								"1"
+		"proportionaltoparent" 						"1"
+		
+		"pin_to_sibling" 							"NoGCMessage"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}	
+	
+	"CycleRankTypeButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CycleRankTypeButton"
+		"xpos"										"-118"
+		"ypos"										"-20"
+		"zpos"										"16"
+		"wide"										"130"
+		"tall"										"48"
+		"autoResize"								"0"
+		"pinCorner"									"3"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"use_proportional_insets" 					"1"
+		"command"									"open_rank_type_menu"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"1"
+		"actionsignallevel" 						"1"
+		"proportionaltoparent"						"1"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"paintbackground"							"0"
+		"paintborder"								"0"
+		
+		"alpha"										"0"
+		
+		"pin_to_sibling" 							"RankPanel"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"FriendsBG"
@@ -2249,4 +2354,15 @@
 			}				
 		}
 	}
+	
+	"DashboardDimmer"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"DashboardDimmer"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+	}
+	
 }

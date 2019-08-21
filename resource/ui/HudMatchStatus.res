@@ -120,14 +120,11 @@
 	
 	"RoundCounter"
 	{
-		"fieldName"									"RoundCounter"
-		"xpos"										"cs-0.5"
-		"ypos"										"-2"
-		"zpos"										"1"		
-		"wide"										"300"
-		"tall"										"100"
-		"visible"									"1"
-		"enabled"									"1"
+		"fieldName"									"RoundCounter"	
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 		
 	}
 
@@ -154,10 +151,10 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"M0refont12"
+			"font"									"M0refont18"
 			"fgcolor"								"255 255 255 255"
 			"xpos"									"26"
-			"ypos"									"18"
+			"ypos"									"4"
 			"zpos"									"3"
 			"wide"									"50"
 			"tall"									"15"
@@ -168,8 +165,9 @@
 			
 			if_match
 			{
-				"font"								"M0refont12"
-				"ypos"								"5"
+				"proportionaltoparent"				"1"
+//				"font"								"M0refont12"
+//				"ypos"								"5"
 			}
 		}	
 	}
@@ -179,7 +177,7 @@
 		"ControlName"								"CTFTeamStatus"
 		"fieldName"									"TeamStatus"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"c215"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"75"
@@ -193,11 +191,11 @@
 		"12v12_gap"									"1"
 
 		"team1_grow_dir" 							"west"
-		"team1_base_x"								"c-45"
+		"team1_base_x"								"c-75"
 		"team1_max_expand"							"133"
 
 		"team2_grow_dir" 							"east"
-		"team2_base_x"								"c47"
+		"team2_base_x"								"c75"
 		"team2_max_expand"							"133"
 
 		"playerpanels_kv"
@@ -367,9 +365,19 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"PlayerPanelPlayerName"
+				"wide"								"0"
+				"tall"								"0"
+				"autoResize"						"0"
+				"visible"							"0"
+			}
+			
+			"respawntime2"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"respawntime2"
+				"font"								"m0refont18Outline"
 				"xpos"								"cs-0.5"
-				"ypos"								"0"
+				"ypos"								"-2"
 				"zpos"								"5"
 				"wide"								"f0"
 				"tall"								"19"
@@ -379,7 +387,8 @@
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
-			}
+				"fgcolor_override"					"255 255 255 255"
+			}			
 			
 			"chargeamount"
 			{
@@ -421,31 +430,20 @@
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"DeathPanel"
-				"xpos"								"cs-0.5"
-				"ypos"								"0"
-				"zpos"								"0"
-				"wide"								"f0"
-				"tall"								"24"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
-				"enabled"							"1"
-				"image"								"../HUD/comp_player_status"	
-				"scaleImage"						"1"
-				"proportionaltoparent"				"1"	
+				"enabled"							"0"
 			}
 			
 			"SkullPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SkullPanel"
-				"xpos"								"cs-0.5"
-				"zpos"								"1"
-				"wide"								"o1.2"
-				"tall"								"p0.15"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
-				"enabled"							"1"
-				"image"								"../HUD/comp_player_status_skull"	
-				"scaleImage"						"1"
-				"proportionaltoparent"				"1"	
+				"enabled"							"0"
 			}
 		}
 	}

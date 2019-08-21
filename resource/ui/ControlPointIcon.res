@@ -30,10 +30,15 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	  "CapPlayerImage"
-		"wide"		    "0"
-		"tall"		    "0"
-		"visible"	    "0"
-		"enabled"	    "0"
+		"xpos"		   						 		"0"
+		"ypos"		    							"2"
+		"zpos"		    							"3"
+		"wide"		    							"10"
+		"tall"		    							"12"
+		"visible"	    							"0"
+		"enabled"	    							"1"
+		"image"		    							"capture_icon"
+		"scaleImage"								"1"
 	}
 
 	"CapNumPlayers"

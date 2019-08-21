@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudPlayerClass"
-		"xpos"										"170"
-		"xpos_minmode"								"170"
+		"xpos"										"30"
+		"xpos_minmode"								"30"
 		"ypos"										"0"
 		"ypos_minmode"								"0"
 		"zpos"										"1"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"								"CTFClassImage"
 		"fieldName"									"PlayerStatusClassImage"
-		"xpos"										"20"
+		"xpos"										"0"
 		"ypos"										"r48"
 		"zpos"										"2"
 		"wide"										"48"

@@ -5,7 +5,7 @@
 		"ControlName" 								"CExLabel"
 		"fieldName" 								"ServerTimeLimitLabel"
 		"xpos" 										"26"
-		"ypos" 										"4"
+		"ypos" 										"20"
 		"zpos" 										"2"
 		"wide" 										"50"
 		"tall"										"15"
@@ -16,13 +16,22 @@
 		"dulltext" 									"0"
 		"brighttext" 								"0"
 		"wrap" 										"0"
-		"font" 										"m0refont16"
+		"font" 										"m0refont14"
 		"fgcolor"									"255 255 255 255"
 		
 		if_mvm
 		{
 			"visible"								"0"
 		}
+		
+		if_match
+		{
+			"proportionaltoparent"					"1"
+//			"font"									"m0refont12"
+//			"ypos"									"18"
+
+		}
+		
 	}
 	
 	
@@ -55,7 +64,7 @@
 		
 		if_match
 		{
-			"visible" "0"
+			"visible" "1"
 		}
 	}
 	
