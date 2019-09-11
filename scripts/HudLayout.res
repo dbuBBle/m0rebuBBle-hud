@@ -1,7 +1,42 @@
 #base "../basefiles/hudlayout.res"
 
 "Resource/HudLayout.res"
-{	
+{
+
+	"CrosshairName"
+	{
+		"controlName"								"CExLabel"
+		"fieldName"									"CrosshairName"
+		"visible"									"0"
+		"enabled"									"0"
+		"zpos"										"1"
+		"xpos"										"c-25"
+		"ypos"										"c-25"
+		"wide"										"50"
+		"tall"										"50"
+		"font"										"size:20,outline:off"
+		"labelText"									"f"
+		"textAlignment"								"center"
+		"fgcolor"									"255 255 255 255"
+	}
+	
+	"CrosshairName1"
+	{
+		"controlName"								"CExLabel"
+		"fieldName"									"CrosshairName1"
+		"visible"									"0"
+		"enabled"									"0"
+		"zpos"										"1"
+		"xpos"										"c-25"
+		"ypos"										"c-25"
+		"wide"										"50"
+		"tall"										"50"
+		"font"										"size:30,outline:off"
+		"labelText"									""
+		"textAlignment"								"center"
+		"fgcolor"									"255 255 255 255"
+	}	
+	
 	HudWeaponAmmo
 	{
 		"fieldName" 								"HudWeaponAmmo"
@@ -262,9 +297,9 @@
 
 		"MaxDeathNotices" 							"6"
 		"IconScale"	  								"0.35"
-		"LineHeight"	  							"10"
+		"LineHeight"	  							"12"
 		"LineSpacing"	 							"1"
-		"CornerRadius"	  							"3"
+		"CornerRadius"	  							"2"
 		"RightJustify"	  							"1"
 		"TextAlignment"								"center"
 		"TextFont"									"Default"
@@ -274,8 +309,8 @@
 		"IconColor"									"255 255 255 255"
 		"LocalPlayerColor"							"HUDBlack"
 
-		"BaseBackgroundColor"						"0 0 0 0"
-		"LocalBackgroundColor"						"240 240 240 200"
+		"BaseBackgroundColor"						"0 0 0 150"
+		"LocalBackgroundColor"						"235 235 235 180"
 	}
 	
 	HudSpellMenu
